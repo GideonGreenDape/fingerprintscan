@@ -3,7 +3,7 @@ import fingertwo from "../assets/icons/fingertwo.svg";
 import scanner from "../assets/icons/scanner.svg";
 import Workstation from "../assets/icons/Workstation.svg";
 import { useState, useEffect } from "react";
-import fingerprint, { findPort, stream, capture } from "fingerprint-scanner";
+import fingerprint, { findPort, stream, capture } from "fingerprint-scanners";
 import {
   CAPTURE_BODY,
   DEVICE_ID,
